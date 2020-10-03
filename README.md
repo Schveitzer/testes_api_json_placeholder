@@ -1,7 +1,6 @@
 # Testes para api Json Place Holder
 
-Projeto de testes automatizados para api bla bla
-
+Projeto de testes automatizados para api Json Place Holder
 Esse projeto inclui:
 - Framworks:
     - Supertest
@@ -54,7 +53,7 @@ $ yarn init:tests
 
 ## Relatório de execução
 Execute o comando para gerar o relatório:
-> Você deve estar na pasta testes_place_holder_api
+> Você deve estar na pasta testes_api_json_placeholder
 ```bash
 $ allure generate
 ```
