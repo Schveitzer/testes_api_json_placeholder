@@ -1,0 +1,4 @@
+{
+  "APP_BASE_URL": "http://jsonplaceholder.typicode.com/",
+  "JSON_BASE_FILES_PATH": "./base-files/json/"
+}
