@@ -13,6 +13,15 @@ Esse projeto inclui:
     - Formatador e lint de código (ESlint, Prettier)
     - Relatórios com Allure
 
+## Conteúdo
+- [Estrutura do porjeto](#Estrutura-do-porjeto)
+- [Requisitos](#Requisitos)
+- [Iniciando](#Iniciando)
+- [Executando os testes](#Executando-os-testes)
+- [Relatório da execução](#Relatório-da-execução)
+- [Lint do Código](#Lint-do-Código)
+- [Base url e outras configuraçõe](#Base-url-e-outras-configuraçõe)
+
 Estrutura do porjeto:
 ```
 .
@@ -46,12 +55,12 @@ Instalar as dependecias:
 $ yarn install
 ```
 
-## Para executar os testes:
+## Executando os testes:
 ```bash
 $ yarn init:tests
 ```
 
-## Relatório de execução
+## Relatório da execução:
 Execute o comando para gerar o relatório:
 > Você deve estar na pasta testes_api_json_placeholder
 ```bash
@@ -64,7 +73,7 @@ Execute o comando para abrir o relatório no navegador:
 $ allure serve
 ```
 
-## Lint Code
+## Lint do Código
 Para executar o lint do código execute:
 
 ```bash
@@ -72,4 +81,4 @@ $ yarn code:format
 ```
 
 ## Base url e outras configurações
-As variaveis de ambiente usadas no testes são carregadas a partir do arquivo [EnvironmentVariables.js](https://github.com/Schveitzer/api-tests-supertest-jest/blob/master/config/EnvironmentVariables.js) , para alterar o endereço do base_url edite o endereço no arquivo [config.json](https://github.com/Schveitzer/api-tests-supertest-jest/blob/master/config/config.json).
+As variáveis de ambiente usadas nos testes são carregadas a partir do arquivo [EnvironmentVariables.js](https://github.com/Schveitzer/testes_api_json_placeholder/blob/master/config/EnvironmentVariables.js) , para alterar o endereço do base_url edite o endereço no arquivo [config.json](https://github.com/Schveitzer/testes_api_json_placeholder/blob/master/config/config.json).
