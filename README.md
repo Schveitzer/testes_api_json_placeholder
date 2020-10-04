@@ -20,7 +20,7 @@ Esse projeto inclui:
 - [Executando os testes](#Executando-os-testes)
 - [Relatório da execução](#Relatório-da-execução)
 - [Lint do Código](#Lint-do-Código)
-- [Base url e outras configuraçõe](#Base-url-e-outras-configuraçõe)
+- [Base url e outras configurações](#Base-url-e-outras-configurações)
 
 Estrutura do porjeto:
 ```
